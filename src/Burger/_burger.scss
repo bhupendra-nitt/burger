@@ -1,0 +1,33 @@
+.burger {
+  padding: 16px;
+
+  &__add-order {
+    display: inline-block;
+    width: calc(50% - 18px);
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: uppercase;
+    &:hover {
+      background-color: #d3d3d3;
+    }
+  }
+
+  &__list-orders {
+    display: inline-block;
+    width: calc(50% - 18px);
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: uppercase;
+    &:hover {
+      background-color: #d3d3d3;
+    }
+  }
+}

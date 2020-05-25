@@ -1,0 +1,53 @@
+.order-form {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 16px 0;
+  font-size: 18px;
+  &__name {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+
+    &-input {
+      margin-left: 16px;
+      font-size: 18px;
+    }
+  }
+
+  &__add-burger {
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin-top: 16px;
+    width: 140px;
+    text-align: center;
+    margin: auto;
+    padding: 8px;
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+
+  &__total-amount {
+    text-align: left;
+  }
+
+  &__confirm-order {
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin-top: 16px;
+    width: 140px;
+    text-align: center;
+    background-color: #68BB59;
+    margin: auto;
+    padding: 8px;
+    &:hover {
+      background-color: #68BB59;
+      color: #ddd
+    }
+  }
+
+  &__burgers {
+    margin: 16px 0;
+  }
+}

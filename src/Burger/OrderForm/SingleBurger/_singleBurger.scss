@@ -1,0 +1,55 @@
+.single-burger {
+  padding: 8px;
+  font-size: 20px;
+  text-align: left;
+  max-width: 320px;
+  display: inline-block;
+  margin: 8px;
+  border: 1px solid #ddd;
+
+  &__buns {
+    &--label {
+      width: 140px;
+      display: inline-block;
+    }
+    &--value {
+      width: 140px;
+      text-align: center;
+      display: inline-block;
+    }
+  }
+  &__salad {
+    &--label {
+      width: 140px;
+      display: inline-block;
+    }
+    &--value {
+      width: 140px;
+      text-align: left;
+      display: inline-block;
+    }
+  }
+  &__cheese-slice {
+    &--label {
+      width: 140px;
+      display: inline-block;
+    }
+    &--value {
+      width: 140px;
+      text-align: left;
+      display: inline-block;
+    }
+  }
+
+  &__cutlet {
+    &--label {
+      width: 140px;
+      display: inline-block;
+    }
+    &--value {
+      width: 140px;
+      text-align: left;
+      display: inline-block;
+    }
+  }
+}
