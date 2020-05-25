@@ -1,0 +1,64 @@
+.order-detail {
+  margin: 4px;
+  &__name {
+    font-size: 18px;
+  }
+
+  &__list {
+    display: block;
+    margin: 8px;
+    &__detail {
+      display: inline-block;
+      max-width: 320px;
+      border: 1px solid #ddd;
+      padding: 8px;
+      margin: 4px;
+
+      &__buns {
+        &--label {
+          width: 140px;
+          display: inline-block;
+        }
+        &--value {
+          width: 140px;
+          text-align: left;
+          display: inline-block;
+        }
+      }
+      &__salad {
+        &--label {
+          width: 140px;
+          display: inline-block;
+        }
+        &--value {
+          width: 140px;
+          text-align: left;
+          display: inline-block;
+        }
+      }
+      &__cheese-slice {
+        &--label {
+          width: 140px;
+          display: inline-block;
+        }
+        &--value {
+          width: 140px;
+          text-align: left;
+          display: inline-block;
+        }
+      }
+
+      &__cutlet {
+        &--label {
+          width: 140px;
+          display: inline-block;
+        }
+        &--value {
+          width: 140px;
+          text-align: left;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
